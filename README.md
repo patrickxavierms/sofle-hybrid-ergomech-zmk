@@ -20,6 +20,11 @@ The Ergomech Sofle Hybrid Wireless uses a Nice!Nano microcontroller and runs the
 The default keymap of this keyboard can be found here:
 ![Default Keymap](./keymap-drawer/sofle_ergomech.svg)
 
+## Updated Keymap
+<img width="2160" height="1185" alt="image" src="https://github.com/user-attachments/assets/2159cc82-9e8b-4931-bd29-159b88ed95b2" />
+<img width="2181" height="1281" alt="image" src="https://github.com/user-attachments/assets/0bf41046-66f7-45b5-a9bf-5b53a18aaeda" />
+<img width="2145" height="1270" alt="image" src="https://github.com/user-attachments/assets/befe1d2d-3a25-42a9-9aae-ba9a577a30f7" />
+
 ## Flashing the Sofle Hybrid
 The ZMK cli tool would typically have you step through several questions to generate the necessary code to flash the firmware then upload it to a new repository on GitHub.
 However, Ergomech has already done this for you. You can find the repository [here](https://github.com/ergomechstore/sofle-hybrid-ergomech). Assuming you already have a GitHub account,
