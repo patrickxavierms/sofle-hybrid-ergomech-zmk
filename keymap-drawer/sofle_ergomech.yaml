@@ -1,7 +1,8 @@
 layout: {zmk_keyboard: sofle_ergomech}
 layers:
-  default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESC, Q, W, E, R, T, Y, U, I, O, P, ENTER, TAB, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT,
-    Z, X, C, V, B, N, M, ',', ., /, RSHFT, '', LGUI, LALT, raise, lower, SPACE, raise, SPACE, lower, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT, DOWN]
+  default: [ESCAPE, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, ENTER, LEFT SHIFT, A, S, D, F, G, H, J, K, L,
+    ;, '''', '', Z, X, C, V, B, N, M, ',', ., /, RSHFT, '', LGUI, LEFT CONTROL, raise, lower, SPACE, raise, SPACE, lower, RALT, RGUI, ENTER, RIGHT, UP ARROW, LEFT,
+    DOWN]
   lower:
   - '&studio_unlock'
   - F1
@@ -27,10 +28,10 @@ layers:
   - '{'
   - '}'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - CAPSLOCK
   - INS
   - PRINTSCREEN
-  - ''
+  - PG UP
   - F11
   - F12
   - ^
@@ -40,9 +41,9 @@ layers:
   - ':'
   - '"'
   - {t: ▽, type: trans}
+  - DEL
   - ''
-  - ''
-  - ''
+  - PG DN
   - HOME
   - END
   - \
@@ -80,7 +81,7 @@ layers:
   - KP DIVIDE
   - BSPC
   - DEL
-  - ''
+  - Alt+TAB
   - STOP
   - PLAY PAUSE
   - PREVIOUS
